@@ -45,5 +45,7 @@ It focuses on creating a secure, non-human identity (Service Principal) and assi
 
 ## ▶️ How to Deploy
 terraform init
+
 terraform plan
+
 terraform apply
