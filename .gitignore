@@ -1,0 +1,30 @@
+# Ignore Terraform working directories
+.terraform/
+modules/**/.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+.tfvars
+modules/**/.terraform.lock.hcl
+
+# OS / IDE files
+*.log
+*.swp
+*.tmp
+
+#Crash files
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+#CLI config
+.terraformrc
+terraform.rc
+
+#OS files
+.DS_Store
+Thumbs.db
