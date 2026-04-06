@@ -49,3 +49,12 @@ terraform init
 terraform plan
 
 terraform apply
+
+
+## ⚠️ Design Decisions 
+- Azure AD application and Service Principal creation were intentionally not automated
+to avoid requiring elevated directory permissions.
+
+- RBAC configuration is included but disabled to demonstrate intended design.
+
+- In production, identities would be pre-created or managed via privileged workflows.

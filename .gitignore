@@ -4,9 +4,10 @@ modules/**/.terraform/
 
 # Terraform state files
 *.tfstate
-*.tfstate.backup
+*.tfstate.*
 .terraform.lock.hcl
 .tfvars
+.tfvars.json
 modules/**/.terraform.lock.hcl
 
 # OS / IDE files
